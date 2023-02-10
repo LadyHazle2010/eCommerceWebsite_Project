@@ -8,25 +8,25 @@
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%; */
+   font-size: 62.5%; 
 }
 
 body{
     font-family: "Lucidia Sans", "Lucidia Sans Regular", "Lucidia Grande",
     "Lucida Sans Unicode", Verdana, Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
-    background-color: purple;
-    color: white;
-    margin: 0;
+    background-color: white;
+    color: black;
+    margin: 400;
 }
 
 header {
-    background-color: rgb(226, 11, 250);
+    background-color:gold;
     position: relative;
     padding: 1rem;
 }
 
 nav a {
-    color: rgb(235, 196, 21);
+    color: gold;
     font-size: 30px;
     text-decoration: none;
 
@@ -41,7 +41,7 @@ nav ul {
 
 nav li {
     display: inline;
-    margin-right: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 main {
@@ -55,16 +55,22 @@ main section {
     padding: 2rem;
 }
 
+main section img {
+    margin-inline-end: 3rem;
+    padding: 2rem;
+}
+
 .home img {
     float: left;
     margin-right: 3rem;
     width: 400px;
+
 }
 
 footer {
     text-align: center;
     text-align: center;
-    background-color: rgb(4, 39, 8);
+    background-color: gold;
     padding: 4rem;
     position: fixed;
     width: 100%;
