@@ -20,9 +20,9 @@ body{
 }
 
 header {
-    background-color:gold;
+    background-color:rgb(255, 255, 255);
     position: relative;
-    padding: 1rem;
+    padding: 5rem;
 }
 
 nav a {
@@ -58,17 +58,56 @@ main section {
 main section img {
     margin-inline-end: 3rem;
     padding: 2rem;
+
+}
+
+img {
+    float: row;
+    margin-block-start: 6rem;
+    width: 300px;
+    left: 0;
+    right: 0;
 }
 
 .home img {
     float: left;
     margin-right: 3rem;
     width: 400px;
-
 }
 
+.class img {
+    float: row;
+    margin-inline-start: 3rem;
+    width: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
-    text-align: center;
     text-align: center;
     background-color: gold;
     padding: 4rem;
